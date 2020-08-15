@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+header{
+    background-image: url(/IMAGENS/Prancheta\ 1.png);
+    height:90vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+.header-info{
+    text-align: left;
+    margin:0;
+    padding-left: 445px;
+    padding-top:290px;
+    color: black;
+}
+.header-info a{
+    background-color: #a7dbd2;
+    border: unset;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    text-decoration:none;
+}
+.header-info p{
+    padding-bottom: 20px;
+}
+h2 {
+    text-align: left;
+    font-size: 2rem;
+    margin: 0;
+}
+  .textinho{
+      font-size: 30px;
+      text-align: left;
+      padding-top: 30px;
+      padding-bottom: 50px;
+  }
+  .sobre, .redes {
+    max-width: 47vw;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .sobre-mim, .redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    height: 390px;
+  }
+  
+  .sobre-mim_info {
+    width: 50vw;
+  }
+  .sobre-mim_info a {
+    background-color:#a7dbd2;
+    border: unset;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+ }
+ .sobre-mim_info a:hover{
+     background-color: white;
+     color: #a7dbd2;
+     border: 1px solid #a7dbd2;
+     transition: ease-in 0.2s;
+ }
+ .sobre-mim_info p {
+     padding-bottom: 15px;
+ }
+  .sobre-mim_habilidades {
+    width: 13vw;
+    margin-left: 2rem;
+  }  
+  .redes{
+    margin-top: 1rem;
+    padding-left: 100px;
+    max-width: 1000px;
+}
+.redes-sociais p {
+    color: white;
+
+}
+.redes-sociais a{
+    text-decoration: none;
+}
+.redes-sociais img{
+    max-width: 2rem;
+    max-height: 2rem;
+}
+.redes-sociais_facebook,
+.redes-sociais_linkedin,
+.redes-sociais_twitter,
+.redes-sociais_github{
+    background-color:#8dd1c6;
+    text-align: center;
+    padding: 2rem 2rem;
+    max-height: 15rem;
+}
+footer{
+    background-color:#8dd1c6;
+    padding: 2rem 0;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
